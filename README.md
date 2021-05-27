@@ -2,7 +2,7 @@
 
 In der Aufgabe dieses Aufgabenblatts sollen die erlernten objektorientierten Konzepte  (Klassen, Felder, Eigenschaften, Methoden) verwendet werden.
 
-Lösen Sie die Aufgabe in den Gruppen von zwei Studierenden. Versuchen Sie der Aufwand zur Lösung der Aufgaben im Voraus abzuschätzen und teilen Sie die Teilaufgaben (a. - e.) gleichmäßig auf. Verwenden Sie zur Organisation der Zusammenarbeit die GitHub - Features.
+Lösen Sie die Aufgabe in den Gruppen von zwei Studierenden. Versuchen Sie der Aufwand zur Lösung der Aufgaben im Voraus abzuschätzen und teilen Sie die Teilaufgaben (1. - 5.) gleichmäßig auf. Verwenden Sie zur Organisation der Zusammenarbeit die GitHub - Features.
 
 ## Bearbeitungszeit
 
@@ -75,6 +75,8 @@ Realisieren Sie im Einzelnen die folgenden Schritte:
       [1] "Impfbereitschaft" ("7, 6, 11, 75")
 
 5. Implementieren Sie außerdem in der Computerklasse eine Print()-Methode, die die relevanten Eigenschaften des Computers ausgibt (Benutzername, IP-Adresse, Absturzzustand).
+
+**Vermeiden Sie das Einchecken von unnötigen Dateien im Repository! Die Präsenz von kompiliertem Code erschwert die Übersichtlichkeit bezüglich des Entwicklungsflusses.**
 
 Organisieren Sie die Implementierung von Teilaufgaben in verschiedenen `feature-branches`. Realisieren Sie die Zuordnung über die Issues, benennen Sie dabei die zustädigen Developer und ggf. die Milestones. Legen Sie außerdem für die Pull Requests die Reviewer fest.
 
