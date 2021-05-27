@@ -27,6 +27,8 @@ Erstellen Sie dazu eine Klasse **Computer**. Um die geforderte Funktionalität r
 
 In der Main(...)-Methode sollen zum Testen der Klasse erst ein Objekt der Klasse Computer und dann ein Array mit 100 Computern angelegt werden, die Methoden aufgerufen und die Eigenschaften verändert werden. Lassen Sie z.B. jeden Computer eine Datei speichern und zählen Sie die Abstürze. "Brennen" Sie ein paar Blu-rays.
 
+![Klassendiagramm](http://www.plantuml.com/plantuml/png/fPF1Qy8m5CRl-IjoJDcy3Gz5nEaO2ZAATgUnmslxfeKq6KbQ4V5_twkjmNLKn5rIalo-bozzNoRMWN5b8LagmLe-qyLtwT2m0-ESF_1tY-OD2kGXjyxaQiD7emswyPZnq_vwbxjqMrD2uUvCXmqRaAhIUTQoSx0p0tQB6QqdMijkBQZmDPSelcZeAzF18d3R5dlartKhf3ETwAmkekSiCsZjdnlIrrwucvP6JMLfO2ya92ZzgQbM3fNpy-G4nReMXAH0cdKEZOZiEl6_Ngn0PM4zw29WHzvsPX75MalB3Yr-i0vSdXx9fa78j99xyhpKASYvjivVfulx2yTwVG84DFCmsJly-0okAAkdVsY7zseRFDRUkQX0bfTTRYhqwyZtlShX3KglQtia0iQERTkQoFYkhT7a81SlLA2a37HUmB8ELjzJcpKvwzk-8Pi1kMBdcF71OEn3zMknjJn1bPM5_040)
+
 ## Vorgehen
 
 Realisieren Sie im Einzelnen die folgenden Schritte:
