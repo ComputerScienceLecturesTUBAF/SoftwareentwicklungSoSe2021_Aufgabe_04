@@ -6,9 +6,9 @@ Lösen Sie die Aufgabe in den Gruppen von zwei Studierenden. Versuchen Sie der A
 
 ## Bearbeitungszeit
 
-SWE: 31. Mai - 4. Juni 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
+SWE: 30. Mai - 6. Juni 2022 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
-Einführung in SWE: 28. Juni - 9. Juli 2021 (KGB, BENG, VTC, MB)
+Einführung in SWE: 20. Juni - 1. Juli 2022 (KGB, BENG, VTC, MB)
 
 ## Aufgabe
 
@@ -17,17 +17,17 @@ Schreiben Sie ein Programm, das in der Lage ist, einen bzw. mehrere Computer zu 
 + Am Computer soll sich ein Benutzer anmelden können.
 + Ein Computer soll in der Lage sein, Dateien zu speichern und
 + über eine IP-Adresse verfügen.
-+ Es soll weiterhin möglich sein zum Archivieren der Daten eine Blu-ray Disc zu "brennen".
++ Es soll weiterhin möglich sein die Daten in einem Web-Archiv abzulegen.
 + Jeder Computer soll über eine *Print()*-Methode verfügen, die seine relevanten Eigenschaften ausgibt.
 
 Erstellen Sie dazu eine Klasse **Computer**. Um die geforderte Funktionalität realisieren zu können, ist es außerdem sinnvoll zwei weitere Klassen zu implementieren:
 
 + eine Klasse mit `static`-Methoden für die Konvertierung der IP-Adressen zwischen `byte`-Array und `string` und
-+ die "Blu-ray Disc"-Klasse, mit Methoden für das Brennen und Auswerfen der Speichermedien.
++ die "Archiv"-Klasse
 
-In der Main(...)-Methode sollen zum Testen der Klasse erst ein Objekt der Klasse Computer und dann ein Array mit 100 Computern angelegt werden, die Methoden aufgerufen und die Eigenschaften verändert werden. Lassen Sie z.B. jeden Computer eine Datei speichern und zählen Sie die Abstürze. "Brennen" Sie ein paar Blu-rays.
+In der Main(...)-Methode sollen zum Testen der Klasse erst ein Objekt der Klasse Computer und dann ein Array mit 100 Computern angelegt werden, die Methoden aufgerufen und die Eigenschaften verändert werden. Lassen Sie z.B. jeden Computer eine Datei speichern und zählen Sie die Abstürze. Erstellen Sie ein paar "Archive".
 
-![Klassendiagramm](http://www.plantuml.com/plantuml/png/fPF1Qy8m5CRl-IjoJDcy3Gz5nEaO2ZAATgUnmslxfeKq6KbQ4V5_twkjmNLKn5rIalo-bozzNoRMWN5b8LagmLe-qyLtwT2m0-ESF_1tY-OD2kGXjyxaQiD7emswyPZnq_vwbxjqMrD2uUvCXmqRaAhIUTQoSx0p0tQB6QqdMijkBQZmDPSelcZeAzF18d3R5dlartKhf3ETwAmkekSiCsZjdnlIrrwucvP6JMLfO2ya92ZzgQbM3fNpy-G4nReMXAH0cdKEZOZiEl6_Ngn0PM4zw29WHzvsPX75MalB3Yr-i0vSdXx9fa78j99xyhpKASYvjivVfulx2yTwVG84DFCmsJly-0okAAkdVsY7zseRFDRUkQX0bfTTRYhqwyZtlShX3KglQtia0iQERTkQoFYkhT7a81SlLA2a37HUmB8ELjzJcpKvwzk-8Pi1kMBdcF71OEn3zMknjJn1bPM5_040)
+![Klassendiagramm](http://www.plantuml.com/plantuml/png/fL9HQy8m47xlhyXZPFDj-52aA1r3GKPHzpJsSBOtMqYRaLmh8lxtfIQBhbAHhGyfkVk-xxwxoqGJAAfB4SIo_Ae95HiE8pPLQLuq-3iuJzPI2Xsa0hHcFdK8cFaUs9j6zGebif1fKaMrPUFn5YcAN7wrAoZDMnIlSFU33YrsO5YDB3A7dO6E5UWSCnFVcAfTBMZmfH38FytH9zE19K2vWpsosxmbcfh4Ez5vCiqoXLfVTMZ--i9Th108tGovW0qANpYj22loLx2Wq84x5HC3wjhmW-TBgBAmFMGv28vkBKx8RsN-RDYraUbCSD6wwbjLB4yk-z8zdSdBriwEtBDfPqH0HHf5tjp1Heucfn0oMOczoIva2c8czRb-5-utiPQh4u23lOURFU7xn-06itcwujvD7Vsrh8MlfJVEBMvgwUT7Q8LwwSRzVmL6zmjukbiXRvSwmIghI_4D)
 
 ## Vorgehen
 
@@ -62,13 +62,15 @@ Realisieren Sie im Einzelnen die folgenden Schritte:
     Erstellen Sie außerdem in der Klasse ein `static readonly byte`-Feld, das LocalHost (127.0.0.0) representiert und zum Initialisieren der IP-Adresse in der Klasse Computer verwendet wird.
 
 
-4. Um das "Brennen" Blu-ray zu ermöglichen, legen Sie bitte zunächst eine Blu-ray-Klasse an. Die Klasse soll über eine Seriennummer, eine Beschriftung (Zeichenkette) und einen Inhalt (ebenfalls Zeichenkette) verfügen. Implementieren Sie alle drei Elemente als nicht-schreibbare, automatische Properties.
+4. Um die Archivierung zu ermöglichen, legen Sie bitte zunächst eine Archiv-Klasse an. Die Klasse soll über eine ID, eine Beschriftung (Zeichenkette) und einen Inhalt (ebenfalls Zeichenkette) verfügen. Implementieren Sie alle drei Elemente als nicht-schreibbare, automatische Properties.
 
-    Implementieren Sie einen Konstruktor, der die Bezeichnung und den Inhalt als Parameter übernimmt. Die Seriennummer soll mit jeder neu erzeugten Blu-Ray hochgezählt, und nicht als Konstruktor-Parameter übergeben werden.
+    Implementieren Sie einen Konstruktor, der die Bezeichnung und den Inhalt als Parameter übernimmt. Die ID soll mit jedem neu erzeugten Archiv hochgezählt, und nicht als Konstruktor-Parameter übergeben werden.
 
-    Fügen Sie Ihrer Computer-Klasse eine Methode zum Brennen hinzu, die eine Blu-ray als out-Parameter übernimmt. Zusätzlich werden eine Bezeichnung und ein Inhalt übergeben, um das Bru-ray-Objekt zu initialisieren.
+    Fügen Sie Ihrer Computer-Klasse eine Methode zum Archivieren hinzu. Übergeben werden an die Methode die Bezeichnung und der Inhalt, die zum Erstellen eines Archiveintrags benötigt werden. Der eigentliche Archivierungsvorgang wird als Konsolenausgabe realisiert, z. B.:
 
-    Brennen Sie in der Main(...)-Methode zwei Disks und geben Sie die Bezeichner, den Inhalt und die Seriennummern aus, z. B.:
+      *Archiving data ...*
+
+    Erstellen Sie in der Main(...)-Methode zwei Archive und geben Sie die Bezeichner, den Inhalt und die IDs aus, z. B.:
 
       [0] "Absatz von Smartphones" ("173.5, 304.7, 494.5, 725.3, 1019.4, 1301.7, 1437.6, 1469, 1465.5, 1402.6, 1372.6, 1280")
 
