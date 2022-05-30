@@ -1,4 +1,4 @@
-# Softwareentwicklung SoSe2021 - Aufgabe 04
+# Softwareentwicklung SoSe2022 - Aufgabe 04
 
 In der Aufgabe dieses Aufgabenblatts sollen die erlernten objektorientierten Konzepte  (Klassen, Felder, Eigenschaften, Methoden) verwendet werden.
 
