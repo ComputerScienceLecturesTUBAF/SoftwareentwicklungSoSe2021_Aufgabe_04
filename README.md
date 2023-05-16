@@ -1,4 +1,4 @@
-# Softwareentwicklung SoSe2022 - Aufgabe 04
+# Softwareentwicklung SoSe2023 - Aufgabe 04
 
 In der Aufgabe dieses Aufgabenblatts sollen die erlernten objektorientierten Konzepte  (Klassen, Felder, Eigenschaften, Methoden) verwendet werden.
 
@@ -6,9 +6,7 @@ Lösen Sie die Aufgabe in den Gruppen von zwei Studierenden. Versuchen Sie der A
 
 ## Bearbeitungszeit
 
-SWE: 30. Mai - 6. Juni 2022 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
-
-Einführung in SWE: 20. Juni - 1. Juli 2022 (KGB, BENG, VTC, MB)
+SWE: 29. Mai - 2. Juni 2023 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
 ## Aufgabe
 
@@ -74,7 +72,7 @@ Realisieren Sie im Einzelnen die folgenden Schritte:
 
       [0] "Absatz von Smartphones" ("173.5, 304.7, 494.5, 725.3, 1019.4, 1301.7, 1437.6, 1469, 1465.5, 1402.6, 1372.6, 1280")
 
-      [1] "Impfbereitschaft" ("7, 6, 11, 75")
+      [1] "Netflix Abonnenten" ("26.253, 33.267, 44.350, 57.391, 74.762, 93.796, 117.582, 148.455, 171.769, 203.663, 221.844, 230.747")
 
 5. Implementieren Sie außerdem in der Computerklasse eine Print()-Methode, die die relevanten Eigenschaften des Computers ausgibt (Benutzername, IP-Adresse, Absturzzustand).
 
