@@ -78,5 +78,5 @@ Realisieren Sie im Einzelnen die folgenden Schritte:
 
 **Vermeiden Sie das Einchecken von unnötigen Dateien im Repository! Die Präsenz von kompiliertem Code erschwert die Übersichtlichkeit bezüglich des Entwicklungsflusses.**
 
-Organisieren Sie die Implementierung von Teilaufgaben in verschiedenen `feature-branches`. Realisieren Sie die Zuordnung über die Issues, benennen Sie dabei die zustädigen Developer und ggf. die Milestones. Legen Sie außerdem für die Pull Requests die Reviewer fest.
+Organisieren Sie die Implementierung von Teilaufgaben in verschiedenen `feature-branches`. Realisieren Sie die Zuordnung über die Issues, benennen Sie dabei die zustädigen Developer und ggf. die Milestones. Evaluieren Sie gegenseitig die "eingehenden" Pull Requests als Reviewer.
 
